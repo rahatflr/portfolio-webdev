@@ -129,3 +129,58 @@ nav ul li a {
     border-color: #FD6E0A;
 
 }
+
+
+/* text classes */
+
+
+
+
+/* About me */
+
+#about-me{
+    margin: 120px auto;
+   
+}
+
+.about-me-main{
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--light);
+    padding: 130px 150px ;
+}
+
+
+
+.abt-me-h2{
+    color: var(--text-dark);
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.abt-me-p{
+    padding-bottom: 40px;
+    color: var(--text-dark-three);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-p{
+    color: var(--text-dark-three);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-h2{
+    color: var(--text-dark);
+    font-size: 20px;
+    font-weight: 700;
+    
+}
