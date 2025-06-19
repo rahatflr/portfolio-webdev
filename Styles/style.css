@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* font-family: "Open Sans", sans-serif; */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --orange: #FD6E0A;
+    --light: #FFF8F3;
+    --text-white: #fff;
+    --text-dark: #181818;
+    --text-dark-two: #474747;
+    --text-dark-three: #757575;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.Logo-color {
+    color: var(--orange);
+}
+
+
+
+
+
+nav {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+nav ul {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--text-dark-two);
+}
+
+
+
+/* Hero part */
+
+
+.hero-content h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.hero-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--text-dark-two);
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-dark-three);
+    padding-bottom: 40px;
+}
+
+.header {
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat;
+    background-color: var(--light);
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 585px;
+    margin-left: 220px;
+}
+
+
+.btn-primary {
+    padding: 15px 25px;
+    background-color: #FD6E0A;
+    color: var(--light);
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+.btn-secondary {
+    margin-left: 20px;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: transparent;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border-color: #FD6E0A;
+
+}
