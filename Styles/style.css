@@ -138,28 +138,28 @@ nav ul li a {
 
 /* About me */
 
-#about-me{
+#about-me {
     margin: 120px auto;
-   
+
 }
 
-.about-me-main{
+.about-me-main {
     border-radius: 10px;
     text-align: center;
     background-color: var(--light);
-    padding: 130px 150px ;
+    padding: 130px 150px;
 }
 
 
 
-.abt-me-h2{
+.abt-me-h2 {
     color: var(--text-dark);
     font-size: 35px;
     font-weight: 700;
     padding: 20px 0;
 }
 
-.abt-me-p{
+.abt-me-p {
     padding-bottom: 40px;
     color: var(--text-dark-three);
     font-size: 18px;
@@ -167,20 +167,204 @@ nav ul li a {
 }
 
 
-.card-container{
+.card-container {
     display: flex;
     justify-content: space-around;
 }
 
-.card-p{
+.card-p {
     color: var(--text-dark-three);
     font-size: 18px;
     font-weight: 400;
 }
 
-.card-h2{
+.card-h2 {
     color: var(--text-dark);
     font-size: 20px;
     font-weight: 700;
+
+}
+
+
+/* what I do section */
+
+
+.what-i-do-text {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.what-i-do-h2 {
+    color: var(--text-dark);
+    font-size: 35px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.what-i-do-p {
+    color: var(--text-dark-three);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* cards */
+
+.what-i-do-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.what-i-do-card-item {
+    padding: 30px;
+    width: 25%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-head {
+
+    color: var(--text-dark);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.card-p {
+
+    color: var(--text-dark-three);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Resume Start */
+
+
+.Resume-head {
+    text-align: center;
+}
+
+
+.Resume-head {
+    color: var(--text-dark);
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px 0;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.resume-info-container {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.resume-div {
+    margin-bottom: 40px;
+}
+
+
+.resume-info-h2,
+.rsm-des {
+    padding: 15px 0;
+    color: var(--text-dark-two);
+    font-size: 25px;
+}
+
+.resume-info-p1 {
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: var(--text-dark-three);
+
+}
+
+.resume-info-p2 {
+    width: 470px;
+    font-size: 16px;
+    color: var(--text-dark-three);
+    padding-top: 10px;
+}
+
+hr {
+    width: 510px;
+}
+
+.single-btn {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+/* footer part */
+
+.footer-main {
+    background-color: var(--light);
+    padding:90px 0;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+
+/* footer comon */
+
+
+.footer-head {
+    color: var(--text-dark);
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+/* right */
+
+.footer-p{
+    color: var(--text-dark-three);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* left */
+
+.footer-icon-div {
+    display: flex;
+    margin: 50px 0;
     
+
+}
+
+.footer-icon-div img{
+    margin-right: 20px;
+}
+
+.p {
+    padding: 18px 30px;
+    margin-top: 24px;
+    width: 450px;
+}
+
+.h {
+    height: 180px;
+}
+
+.btn-margin {
+    margin: 30px 0;
+}
+
+.input-style {
+
+    border-radius: 5px;
+    border: none;
 }
