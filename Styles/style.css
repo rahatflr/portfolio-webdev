@@ -368,3 +368,137 @@ hr {
     border-radius: 5px;
     border: none;
 }
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 576px) {
+        
+
+    .header {
+    background-image: none;
+}
+    nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav ul {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.hero {
+    flex-direction: column;
+}
+.hero img{
+    width: 100%;
+}
+
+.hero-content {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+
+
+/* About Me Mobile */
+
+
+.about-me-main {
+   
+    padding: 30px;
+}
+
+.card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* What I do Mobile */
+
+
+.what-i-do-text {
+    padding: 30px;
+    
+}
+
+.what-i-do-cards {
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.what-i-do-card-item {
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+
+/* Resume Mobilr */
+
+.resume-info-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/*  Footer M */
+
+.footer-div {
+    flex-direction: column;
+}
+.footer-main {
+   text-align: center;
+}
+
+.footer-icon-div {
+    align-items: center;
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+}
+
+.footer-right{
+    margin: 0 auto;
+}
+
+.input-style{
+    width: 90%;
+}
+
+.resume-left , .resume-right{
+    width: 400px;
+}
+
+
+hr {
+    display: none;
+}
+
+.resume-info-p2 {
+    width: 100%;
+    font-size: 16px;}
+
+
+    .footer-p {
+    padding: 20px 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+}
